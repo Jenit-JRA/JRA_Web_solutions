@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Building Page</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/6ee4b6de0d.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+     <section class="header" id="ho">
+        <nav>
+               <a href=""><b>JRA-tech Web solutions</b></a>
+               <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                   <ul>
+                    <li><a href="#ho">HOME</a></li>
+                    <li><a href="#service">SERVICES</a></li>
+                    <li><a href="#package">PACKAGES</a></li>
+                    <li><a href="index2.html">BUY NOW</a></li>
+                    <li><a href="#foot">CONTACT</a></li>
+
+                   </ul>
+               </div>
+               <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>“We don't just sell websites, we create websites that SELL.”</h1>
+            <p>Are you a person worried about marketing your brand ,then this is your place . We build all kinds of websites to let your brand reach to maximum people .So what are you waiting for come and register now for the perfect website for your company.</p>
+            <button type="button" class="btn btn-primary btn-lg" ><a href="index2.html">BUY NOW</a></button>
+        </div>
+    </section>
+    <section class="services" id="service">
+        <div class="wrapper">
+        <h1>Our services</h1>
+     <a href="#ho"><i class="fas fa-arrow-up"></i></a>
+        <div class="container">
+            <div class="one">
+                <img src="andrew-neel-cckf4TsHAuw-unsplash.jpg">
+                    <h2>Responsive Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, nesciunt. Voluptatibus, accusamus? Exercitationem recusandae perferendis alias aperiam distinctio. </p>
+            </div>
+            <div class="one">
+                <img src="Landing-Page-Examples.png">
+                <h2>All kinds of websites</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, nesciunt. Voluptatibus, accusamus? Exercitationem recusandae perferendis alias aperiam distinctio. </p>
+            </div>
+            <div class="one">
+                <img src="customized-website-designing-500x500.jpg">
+                <h2>Highly customized</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, nesciunt. Voluptatibus, accusamus? Exercitationem recusandae perferendis alias aperiam distinctio. </p>
+            </div>
+        </div>
+        </div>
+
+    </section>
+    <section class="packages" id="package">
+        <h1> See all our packages</h1>
+        <div class="wrappe">
+            <div class="packs">
+                <h2>Basic</h2>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet </li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                </ul>
+                <p>At just 2000/-</p>
+                <button type="button" class="btn btn-outline-primary"><a href="index2.html">Buy Now</a></button>
+            </div>
+            <div class="packs">
+                <h2>Intermediate</h2>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet </li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                </ul>
+                <p>At just 4000/-</p>
+                <button type="button" class="btn btn-outline-primary"><a href="index2.html">Buy Now</a></button>
+            </div>
+            <div class="packs">
+                <h2>Premium</h2>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet </li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                </ul>
+                <p>At just 9000/-</p>
+                <button type="button" class="btn btn-outline-primary"><a href="index2.html">Buy Now</a></button>
+            </div>
+        </div>
+        
+    </section>
+    <footer id="foot">
+        <div class="containerf">
+            <div class="sec aboutus">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        </div>
+        <ul class="sci">
+           
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+        </div>
+        
+    </footer>
+    
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";  
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";  
+        }
+
+       
+    </script>
+</body>
+</html>
